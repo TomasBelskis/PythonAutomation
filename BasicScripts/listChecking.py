@@ -1,0 +1,8 @@
+# Check for existing values in a list
+myPets = ['Zophie', 'Pooka', 'Fat-tail']
+print('Enter a pet name:')
+name = input()
+if name not in myPets:
+    print('I do not have a pet name ' + name)
+else:
+    print(name + ' is my pet.')
